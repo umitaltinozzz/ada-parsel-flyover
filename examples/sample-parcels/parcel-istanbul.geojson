@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "istanbul-demo-001",
+        "city": "Istanbul",
+        "district": "Fatih",
+        "neighborhood": "Cankurtaran",
+        "block": "102",
+        "parcel": "18"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [28.978715, 41.006874],
+            [28.979221, 41.006936],
+            [28.979119, 41.007344],
+            [28.978584, 41.00728],
+            [28.978715, 41.006874]
+          ]
+        ]
+      }
+    }
+  ]
+}

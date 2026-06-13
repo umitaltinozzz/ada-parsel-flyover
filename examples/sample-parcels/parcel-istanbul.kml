@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Istanbul Demo Parcel</name>
+    <Placemark>
+      <name>istanbul-demo-kml-001</name>
+      <ExtendedData>
+        <Data name="city">
+          <value>Istanbul</value>
+        </Data>
+        <Data name="district">
+          <value>Fatih</value>
+        </Data>
+        <Data name="neighborhood">
+          <value>Cankurtaran</value>
+        </Data>
+        <Data name="block">
+          <value>102</value>
+        </Data>
+        <Data name="parcel">
+          <value>18</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              28.978715,41.006874,0
+              28.979221,41.006936,0
+              28.979119,41.007344,0
+              28.978584,41.007280,0
+              28.978715,41.006874,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

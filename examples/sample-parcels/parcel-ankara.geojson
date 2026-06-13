@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ankara-demo-001",
+        "city": "Ankara",
+        "district": "Cankaya",
+        "neighborhood": "Kizilay",
+        "block": "308",
+        "parcel": "12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.854071, 39.919017],
+            [32.854642, 39.919066],
+            [32.854576, 39.919485],
+            [32.853978, 39.919437],
+            [32.854071, 39.919017]
+          ]
+        ]
+      }
+    }
+  ]
+}
