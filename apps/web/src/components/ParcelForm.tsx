@@ -34,7 +34,7 @@ export function ParcelForm({ onParcelLoaded }: ParcelFormProps) {
 
     try {
       onParcelLoaded(
-        await loadParcelFromUrl("/sample-parcels/parcel-istanbul.geojson"),
+        await loadParcelFromUrl("sample-parcels/parcel-istanbul.geojson"),
       );
     } catch (reason) {
       setError(reason instanceof Error ? reason.message : "Ornek veri yuklenemedi.");
